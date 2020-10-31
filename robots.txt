@@ -1,0 +1,4 @@
+Sitemap: https://cv.hexstream.expert/sitemap.xml
+
+User-agent: *
+Disallow: /special/

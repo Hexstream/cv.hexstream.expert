@@ -1,0 +1,131 @@
+#meta {
+    display: table;
+    padding: 0 1em;
+    border-left: thin solid rgba(0, 0, 0, 0.4);
+    border-right: thin solid rgba(0, 0, 0, 0.4);
+    margin: 2em auto;
+    max-width: 40em;
+    text-align: center;
+}
+
+#page-header + .tabs + #meta {
+    margin-top: 2em;
+    margin-bottom: -1em;
+}
+
+#meta p {
+    line-height: 1.4em;
+}
+
+
+.cards .card {
+    margin: 1em;
+}
+
+.cards .card .duration {
+    white-space: nowrap;
+}
+
+.cards .card .hoisted.bar {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    padding-left: 0.5em;
+    line-height: 1.2em;
+}
+
+.cards .card .tags {
+    justify-content: flex-start;
+    font-size: 1.1em;
+    margin: 0.3em 0 0.3em -0.3em;
+}
+
+.cards .card .tags .tag {
+    padding: 0.15em 0.3em;
+    margin: 0.3em;
+    opacity: 1;
+}
+
+
+#background .cards .card,
+#test-scores .cards .card {
+    padding-left: 0.4em;
+    padding-top: 0;
+    border: none;
+    border-top: thin solid rgba(0, 0, 0, 0.4);
+    border-left: thin solid rgba(0, 0, 0, 0.4);
+    margin-top: 2em;
+    background: transparent;
+}
+
+#background .cards .card h1 {
+    font-weight: normal;
+    font-size: large;
+}
+
+@media (max-width: 34.125em) {
+    #experience #experience_programmer-at-Hexstream-Software {
+        margin-top: 3em;
+    }
+}
+
+#experience .cards .card h1 .title,
+#education .cards .card h1 .field-of-study {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#experience .cards .card h1 .company,
+#education .cards .card h1 .school {
+    font-size: x-large;
+}
+
+#experience .cards .card h1 .employment-type,
+#education .cards .card h1 .degree {
+    font-size: small;
+    opacity: 0.6;
+}
+
+#education .tabs ul li span {
+    white-space: nowrap;
+}
+
+#background .cards .card .hoisted {
+    margin-bottom: 0.2em;
+}
+
+
+#skills .cards .card,
+#recommendations .cards .card {
+    border: none;
+    background: transparent;
+}
+
+#skills .cards .card {
+    padding: 0;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+
+#recommendations .cards .card {
+    padding-left: 0.75em;
+    border-left: thin solid black;
+}
+
+
+#projects .cards .card {
+    margin-top: 2em;
+}
+
+
+#test-scores .cards .card .score {
+    font-weight: bold;
+    font-size: larger;
+}
+
+main small {
+    opacity: 0.5;
+}
