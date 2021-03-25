@@ -14,7 +14,7 @@
 }
 
 #meta p {
-    line-height: 1.4em;
+    line-height: 1.4;
 }
 
 
@@ -33,7 +33,7 @@
     left: 0;
     right: 0;
     padding-left: 0.5em;
-    line-height: 1.2em;
+    line-height: 1.2;
 }
 
 .cards .card .tags {
