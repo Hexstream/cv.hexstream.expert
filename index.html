@@ -39,7 +39,7 @@
 
       </div>
 
-      <p id="last-updated"><span>This page was last updated on </span><time datetime="2021-06-01">1 june 2021</time><span>.</span></p>
+      <p id="last-updated"><span>This page was last updated on </span><time datetime="2021-07-16">16 july 2021</time><span>.</span></p>
 
     </nav>
 
@@ -163,7 +163,14 @@
               <p>
                 Having learned from past mistakes, I now specialize in micro-libraries, with growing success in adapting my extreme modularity skills to bigger, higher impact projects.
                 <br />
-                I am finally achieving traction and accelerating momentum in completing <a class="body-link" href="https://roadmap.hexstreamsoft.com/" target="_blank">my exciting roadmap</a>.</p>
+                I am finally achieving traction and accelerating momentum in completing <a class="body-link" href="https://roadmap.hexstreamsoft.com/" target="_blank">my exciting roadmap</a>.
+              </p>
+
+              <p>Creating important Common Lisp community resources has been a particular focus of my work, and I will continue to invest heavily in this endeavor.</p>
+
+              <p>I am spearheading the nascent movement to <a class="tweet" href="https://twitter.com/HexstreamSoft/status/1213964177657794577" target="_blank" rel="noreferrer">make Common Lisp a top 5 programming language by 2040</a>. I believe this is eminently achievable given proper approaches.</p>
+
+              <p>See my Accomplishments section below for a summary of my extensive Common Lisp Open Source contributions.</p>
 
             </article>
 
@@ -477,6 +484,14 @@
               <p>I am the sole author and maintainer of 30+ ready-to-use Public Domain Common Lisp libraries in Quicklisp. (Excluding CLHS part of CLHS ASDF wrapper.)</p>
               <p>Most of them are simple, some of them are highly innovative, all of them are useful in some way.</p>
               <p>I love making highly focused, lightweight, single-issue libraries. I have started adapting my extreme modularity skills to bigger, higher impact projects.</p>
+              <p>Some top highlights:</p>
+              <p>- <a href="https://www.hexstreamsoft.com/libraries/compatible-metaclasses/" target="_blank">compatible-metaclasses</a> completely solves an important and traditionally nearly intractable problem using a very innovative and simple solution. Features a metametaclass!</p>
+              <p>- <a href="https://www.hexstreamsoft.com/libraries/canonicalized-initargs/" target="_blank">canonicalized-initargs</a> finally provides a pleasant standard solution after decades of awkward ad-hoc canonicalization. It uses a clever novel technique to remove the traditional requirement that subclasses of instances of metaclasses that customize the inheritance of slot options must also be instances of that metaclass. In other words, the metaclass is fully metaclass-compatible with cl:standard-class. This provides tremendous convenience for the user, and allows subclasses to retain all the special optimizations that direct instances of cl:standard-class usually benefit from.</p>
+              <p>- <a href="https://www.hexstreamsoft.com/libraries/cesdi/" target="_blank">cesdi</a> seamlessly solves a set of grating API design problems in a specific part of the MOP, by implementing a more ergonomic API on top of the original.</p>
+              <p>- <a href="https://www.hexstreamsoft.com/libraries/definitions-systems/" target="_blank">definitions-systems</a> finally extracts an extremely common design pattern (traditionally written out by hand ad-nauseam or using brittle macros) into a proper simple reusable unified extensible object-oriented system offering tons of convenience features and a greatly reduced documentation burden.</p>
+              <p>- <a href="https://www.hexstreamsoft.com/libraries/place-modifiers/" target="_blank">place-modifiers</a> essentially gives access to hundreds of modify-macros through one single macro: <code>modify</code>. This is a natural complement to <code>setf</code>.</p>
+              <p>I'm also quite proud of my various trivial libraries seamlessly addressing various minor but grating issues in Common Lisp, which in aggregate greatly increase my satisfaction and productivity with the language.</p>
+
             </article>
 
             <article class="card" id="accomplishments_modern-public-domain-clos-mop-specification">
@@ -505,6 +520,8 @@
               <h1><a href="https://common-lispers.hexstreamsoft.com/" target="_blank">Common Lispers list</a></h1>
               <span class="hoisted when">Apr 2019 – Present</span>
               <p>Discover Common Lisp open-source contributors and their best contributions! Add yourself!</p>
+              <p>I am particularly proud of the <a href="https://common-lispers.hexstreamsoft.com/policies/" target="_blank">extensive set of robust policies</a> I quickly created for the project.</p>
+              <p>Single-handedly creating the initial list of 100 people was quite a feat, in my humble opinion.</p>
             </article>
 
             <article class="card" id="accomplishments_awesome-planck-ez-keyboard-configuration">
