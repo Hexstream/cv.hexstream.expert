@@ -72,6 +72,7 @@
 
 
 #background .cards .card,
+#awards .cards .card,
 #test-scores .cards .card {
     padding-left: 0.4em;
     padding-top: 0;
@@ -144,6 +145,15 @@
 
 #projects .cards .card {
     margin-top: 2em;
+}
+
+
+#awards .cards .card .hoisted {
+    opacity: 1;
+}
+
+#awards .cards .card .hoisted .when {
+    opacity: 0.6;
 }
 
 
