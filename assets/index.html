@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/homepage.css" />
     <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/cards.css" />
     <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/tags.css" />
+    <link rel="stylesheet" type="text/css" href="https://global.hexstream.dev/css/forms.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="preload" as="font" type="font/woff2" href="https://global.hexstream.dev/fonts/kaushan-script/KaushanScript-Regular.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="https://global.hexstream.dev/fonts/liberation/LiberationSerif-Regular.woff2" crossorigin />
@@ -44,7 +45,7 @@
 
       </div>
 
-      <p id="last-updated"><span>This page was last updated on </span><time datetime="2023-09-20">20 september 2023</time><span>.</span></p>
+      <p id="last-updated"><span>This page was last updated on </span><time datetime="2023-10-24">24 october 2023</time><span>.</span></p>
 
     </nav>
 
@@ -334,16 +335,22 @@
           </span>
         </h1>
 
+        <input id="show-endorsement-counts" type="checkbox" class="replaced" />
+        <div class="labelled-control">
+          <label for="show-endorsement-counts">&nbsp;</label>
+          <label for="show-endorsement-counts">Show LinkedIn endorsement counts (as of 24 october 2023)</label>
+        </div>
+
         <div class="cards cards-link-to-themselves">
 
           <section class="card" id="skills_top-skills">
             <h1><a href="#skills_top-skills">Top Skills</a></h1>
             <div class="tags">
-              <span class="skill tag">Common Lisp</span>
+              <span class="skill tag"><span class="endorsement-count">101</span> <span class="name">Common Lisp</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Open Source</span>
+              <span class="skill tag"><span class="endorsement-count">95</span> <span class="name">Open Source</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Software Engineering</span>
+              <span class="skill tag"><span class="endorsement-count">92</span> <span class="name">Software Engineering</span></span>
               <span class="s">.</span>
             </div>
           </section>
@@ -351,27 +358,27 @@
           <section class="card" id="skills_industry-knowledge">
             <h1><a href="#skills_industry-knowledge">Industry Knowledge</a></h1>
             <div class="tags">
-              <span class="skill tag">Programming</span>
+              <span class="skill tag"><span class="endorsement-count">47</span> <span class="name">Programming</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Software Design</span>
+              <span class="skill tag"><span class="endorsement-count">39</span> <span class="name">Software Design</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Software Development</span>
+              <span class="skill tag"><span class="endorsement-count">46</span> <span class="name">Software Development</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Information Architecture</span>
+              <span class="skill tag"><span class="endorsement-count">29</span> <span class="name">Information Architecture</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Web Development</span>
+              <span class="skill tag"><span class="endorsement-count">29</span> <span class="name">Web Development</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Responsive Web Design</span>
+              <span class="skill tag"><span class="endorsement-count">24</span> <span class="name">Responsive Web Design</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Research and Development (R&amp;D)</span>
+              <span class="skill tag"><span class="endorsement-count">26</span> <span class="name">Research and Development (R&amp;D)</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Software Documentation</span>
+              <span class="skill tag"><span class="endorsement-count">27</span> <span class="name">Software Documentation</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Writing</span>
+              <span class="skill tag"><span class="endorsement-count">23</span> <span class="name">Writing</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Touch typing</span>
+              <span class="skill tag"><span class="endorsement-count">17</span> <span class="name">Touch typing</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Object-Oriented Design</span>
+              <span class="skill tag"><span class="endorsement-count">18</span> <span class="name">Object-Oriented Design</span></span>
               <span class="s">.</span>
             </div>
           </section>
@@ -379,19 +386,19 @@
           <section class="card" id="skills_tools-and-technologies">
             <h1><a href="#skills_tools-and-technologies">Tools &amp; Technologies</a></h1>
             <div class="tags">
-              <span class="skill tag">Linux</span>
+              <span class="skill tag"><span class="endorsement-count">23</span> <span class="name">Linux</span></span>
               <span class="s">, </span>
-              <span class="skill tag">HTML</span>
+              <span class="skill tag"><span class="endorsement-count">20</span> <span class="name">HTML</span></span>
               <span class="s">, </span>
-              <span class="skill tag">CSS</span>
+              <span class="skill tag"><span class="endorsement-count">19</span> <span class="name">CSS</span></span>
               <span class="s">, </span>
-              <span class="skill tag">JavaScript</span>
+              <span class="skill tag"><span class="endorsement-count">17</span> <span class="name">JavaScript</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Git</span>
+              <span class="skill tag"><span class="endorsement-count">20</span> <span class="name">Git</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Bash</span>
+              <span class="skill tag"><span class="endorsement-count">16</span> <span class="name">Bash</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Cloudflare</span>
+              <span class="skill tag"><span class="endorsement-count">4</span> <span class="name">Cloudflare</span></span>
               <span class="s">.</span>
             </div>
           </section>
@@ -399,11 +406,11 @@
           <section class="card" id="skills_interpersonal-skills">
             <h1><a href="#skills_interpersonal-skills">Interpersonal Skills</a></h1>
             <div class="tags">
-              <span class="skill tag">Written Communication</span>
+              <span class="skill tag"><span class="endorsement-count">8</span> <span class="name">Written Communication</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Community Development</span>
+              <span class="skill tag"><span class="endorsement-count">6</span> <span class="name">Community Development</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Leadership</span>
+              <span class="skill tag"><span class="endorsement-count">7</span> <span class="name">Leadership</span></span>
               <span class="s">.</span>
             </div>
           </section>
@@ -411,9 +418,9 @@
           <section class="card" id="skills_languages">
             <h1><a href="#skills_languages">Languages</a></h1>
             <div class="tags">
-              <span class="skill tag">English</span>
+              <span class="skill tag"><span class="endorsement-count">6</span> <span class="name">English</span></span>
               <span class="s">, </span>
-              <span class="skill tag">French</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">French</span></span>
               <span class="s">.</span>
             </div>
           </section>
@@ -421,53 +428,53 @@
           <section class="card" id="skills_other-skills">
             <h1><a href="#skills_other-skills">Other Skills</a></h1>
             <div class="tags">
-              <span class="skill tag">Autodidact</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Autodidact</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Public Domain</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Public Domain</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Full-Stack Development</span>
+              <span class="skill tag"><span class="endorsement-count">5</span> <span class="name">Full-Stack Development</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Functional Programming</span>
+              <span class="skill tag"><span class="endorsement-count">5</span> <span class="name">Functional Programming</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Declarative Programming</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Declarative Programming</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Modular Software Design</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Modular Software Design</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Generic-Functions Protocols</span>
+              <span class="skill tag"><span class="endorsement-count">1</span> <span class="name">Generic-Functions Protocols</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Software Specifications</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Software Specifications</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Web Standards</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Web Standards</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Domain Specific Languages</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Domain Specific Languages</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Domain-Driven Design (DDD)</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Domain-Driven Design (DDD)</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Metaprogramming</span>
+              <span class="skill tag"><span class="endorsement-count">4</span> <span class="name">Metaprogramming</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Compilers</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Compilers</span></span>
               <span class="s">, </span>
-              <span class="skill tag">New System Development</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">New System Development</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Refactoring</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Refactoring</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Emacs</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">Emacs</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Slime</span>
+              <span class="skill tag"><span class="endorsement-count">1</span> <span class="name">Slime</span></span>
               <span class="s">, </span>
-              <span class="skill tag">SBCL</span>
+              <span class="skill tag"><span class="endorsement-count">1</span> <span class="name">SBCL</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Semantic HTML</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Semantic HTML</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Web Hosting</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Web Hosting</span></span>
               <span class="s">, </span>
-              <span class="skill tag">SVG</span>
+              <span class="skill tag"><span class="endorsement-count">2</span> <span class="name">SVG</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Intellectual Honesty</span>
+              <span class="skill tag"><span class="endorsement-count">3</span> <span class="name">Intellectual Honesty</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Ethics</span>
+              <span class="skill tag"><span class="endorsement-count">4</span> <span class="name">Ethics</span></span>
               <span class="s">, </span>
-              <span class="skill tag">Hilarity</span>
+              <span class="skill tag"><span class="endorsement-count">1</span> <span class="name">Hilarity</span></span>
               <span class="s">.</span>
             </div>
           </section>

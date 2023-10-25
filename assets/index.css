@@ -124,6 +124,14 @@
 }
 
 
+#skills label {
+    font-size: smaller;
+}
+
+#skills .cards {
+    margin-top: -0.5em;
+}
+
 #skills .cards .card,
 #recommendations .cards .card {
     border: none;
@@ -134,6 +142,34 @@
     padding: 0;
     margin-top: 0.75em;
     margin-bottom: 0.75em;
+}
+
+#skills .cards .card .skill {
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+}
+
+#skills .cards .card .skill .name {
+    padding-right: 0.4em;
+}
+
+#skills .cards .card .skill > * {
+    padding: 0.15em 0.3em;
+}
+
+#skills .cards .card .skill .endorsement-count {
+    color: green;
+    padding-left: 0.4em;
+}
+
+#skills #show-endorsement-counts:checked ~ .cards .card .skill .name {
+
+    border-left: thin solid black;
+}
+
+#skills #show-endorsement-counts:not(:checked) ~ .cards .card .skill .endorsement-count {
+    display: none;
 }
 
 
