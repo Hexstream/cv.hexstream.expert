@@ -192,6 +192,10 @@
     opacity: 0.6;
 }
 
+#certifications .gallery {
+    justify-content: flex-start;
+}
+
 
 #test-scores .cards .card .score {
     font-weight: bold;
