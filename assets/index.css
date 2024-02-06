@@ -71,9 +71,7 @@
 }
 
 
-#background .cards .card,
-#awards .cards .card,
-#test-scores .cards .card {
+:is(#background, #awards, #test-scores) .cards .card {
     padding-left: 0.4em;
     padding-top: 0;
     border: none;
@@ -132,8 +130,7 @@
     margin-top: -0.5em;
 }
 
-#skills .cards .card,
-#recommendations .cards .card {
+:is(#skills, #recommendations) .cards .card {
     border: none;
     background: transparent;
 }
@@ -164,7 +161,6 @@
 }
 
 #skills #show-endorsement-counts:checked ~ .cards .card .skill .name {
-
     border-left: thin solid black;
 }
 
