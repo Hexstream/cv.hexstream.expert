@@ -67,7 +67,7 @@
 .cards .card .tags .tag {
     padding: 0.15em 0.3em;
     margin: 0.3em;
-    opacity: 1;
+    opacity: revert;
 }
 
 
@@ -181,7 +181,7 @@
 
 
 #awards .cards .card .hoisted {
-    opacity: 1;
+    opacity: revert;
 }
 
 #awards .cards .card .hoisted .when {
