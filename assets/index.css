@@ -78,7 +78,7 @@
     border-top: thin solid rgba(0, 0, 0, 0.4);
     border-left: thin solid rgba(0, 0, 0, 0.4);
     margin-top: 2em;
-    background: transparent;
+    background-color: transparent;
 }
 
 #background .cards .card {
@@ -132,7 +132,7 @@
 
 :is(#skills, #recommendations) .cards .card {
     border: none;
-    background: transparent;
+    background-color: transparent;
 }
 
 #skills .cards .card {
