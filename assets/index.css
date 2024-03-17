@@ -180,13 +180,48 @@
 }
 
 
-#awards .cards .card .hoisted {
-    opacity: revert;
+#awards > .tabs {
+    margin-bottom: -1.75em;
 }
 
-#awards .cards .card .hoisted .when {
-    opacity: 0.6;
+#awards_linkedin > p {
+    font-style: italic;
 }
+
+#awards_linkedin table {
+    font-size: larger;
+    border: none;
+    margin: 0;
+}
+
+#awards_linkedin table tr:first-child td {
+    padding-top: 0;
+}
+
+#awards_linkedin table tr:target {
+    color: green;
+}
+
+#awards_linkedin table td {
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    border-bottom: solid thin black;
+    background-color: transparent;
+}
+
+#awards_linkedin table td.title {
+    font-weight: bold;
+}
+
+#awards_linkedin table td.date {
+    text-align: right;
+}
+
+#awards_linkedin table td a {
+    color: inherit;
+}
+
 
 #certifications .gallery {
     justify-content: flex-start;
