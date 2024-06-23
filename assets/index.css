@@ -184,6 +184,10 @@
     margin-bottom: -1.75em;
 }
 
+#awards_linkedin label {
+    font-size: smaller;
+}
+
 #awards_linkedin > p {
     font-style: italic;
 }
@@ -214,8 +218,25 @@
     font-weight: bold;
 }
 
-#awards_linkedin table td.date {
+#awards_linkedin table td:is(.date, .expiry, .duration) {
     text-align: right;
+}
+
+#awards_linkedin #show-badge-durations:not(:checked) ~ * table :is(.expiry, .duration) {
+    display: none;
+}
+
+#awards_linkedin table td:is(.expiry, .duration) {
+    padding-left: 1.75em;
+}
+
+#awards_linkedin table td:is(.unknown, .tbd) {
+    font-style: italic;
+    font-size: smaller;
+}
+
+#awards_linkedin table tr:not(:target) td:is(.unknown, .tbd) {
+    opacity: 0.3;
 }
 
 #awards_linkedin table td a {
