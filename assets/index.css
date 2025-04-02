@@ -11,12 +11,12 @@
     margin-right: 0.25em;
 }
 
-#tabs .tabs.contains-title {
+#tabs .tabs:has(> h1) {
     flex-flow: column;
     align-items: center;
 }
 
-#tabs .tabs.contains-title h1 {
+#tabs .tabs > h1 {
     margin-left: 0;
     margin-right: 0;
 }
