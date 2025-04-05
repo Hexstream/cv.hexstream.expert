@@ -239,10 +239,6 @@
     opacity: 0.3;
 }
 
-#awards_linkedin table td a {
-    color: inherit;
-}
-
 
 #certifications .gallery {
     justify-content: flex-start;
